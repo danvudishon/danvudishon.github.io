@@ -198,7 +198,7 @@ li a{
 
 @media only screen and (max-height: 700px) {
     #paper{
-        bottom: -25%;
+        bottom: -55%;
         padding-bottom: 50px;
     }
 }
