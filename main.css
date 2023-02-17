@@ -1,0 +1,204 @@
+body, html{
+    height:100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #191e21;
+}
+
+
+::-webkit-scrollbar {
+    width: .5em;
+  }
+   
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #333;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: #afafaf;
+    border-radius: 50px;
+
+  }
+
+#mainCont{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#topMain{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: 50%;
+}
+
+#topNav{
+    display: flex;
+    min-height: 10%;
+}
+
+#logoText{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+    gap: 1%;
+    padding: 10px 0 10px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#dash{
+    color: white;
+}
+
+#name{
+    color: rgb(218, 120, 8);
+}
+
+#text{
+    color: white;
+}
+
+#backGround{
+    height: 90%;
+    display: flex;
+    border-top: 3px solid #F5F5DC;
+    border-bottom: 3px solid #F5F5DC;
+}
+
+#backPic{
+    width: 100%;
+}
+
+#backImg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#cMain{
+    display: flex;
+    flex: 1;
+    width: 80%;
+    align-self: flex-end;
+}
+
+#bigBox{
+    display: flex;
+    width: 100%;
+}
+
+#paperCont{
+    width: 60%;
+}
+
+#cont{
+    width: 40%;
+}
+
+#paper{
+    position: absolute;
+    min-height: 80%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    background-image: url('frame.jpg');
+    background-size: cover;
+}
+
+#menu{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+#navigator{
+    display: flex;
+    height: 100%;
+    gap: 10%;
+
+}
+
+.lr{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+p{
+    font-size: 2em;
+    color: wheat;
+
+}
+
+li{
+    list-style: none;
+    padding: 3px 5px 3px 3px;
+    width: fit-content;
+    border-radius: 5px;
+    background-color:rgb(218, 120, 8); 
+    cursor: pointer;
+}
+
+li a{
+    color: #333;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin-top: 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#underLogo{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.603);
+    font-size: 2em;
+}
+
+
+#paperText{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    font-size: 1.5em;
+    width: 70%;
+    text-shadow: 1px 1px 1px  white;
+}
+
+#endText{
+    margin-top: 5%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    font-size: 1.5em;
+    width: 70%;
+    text-shadow: 1px 1px 1px  white;
+}
+
+
+@media only screen and (max-height: 700px) {
+    #paper{
+        bottom: -25%;
+        padding-bottom: 50px;
+    }
+}
